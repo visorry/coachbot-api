@@ -9,7 +9,7 @@ Notes API is a platform for storing and sharing notes. It allows users to create
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/notes.git
+   git clone https://github.com/visorry/coachbots-assignment.git
 
 Navigate to the project directory:
    ```shell

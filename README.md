@@ -39,22 +39,31 @@ python manage.py runserver
 
 Access the API at http://localhost:8000/api/notes/
 
-API Endpoints
+## API Endpoints
 
 GET /api/notes/: Retrieve a list of all notes.
+
 POST /api/notes/: Create a new note.
+
 GET /api/notes/{id}/: Retrieve a specific note by its ID.
+
 PUT /api/notes/{id}/: Update a specific note by its ID.
+
 DELETE /api/notes/{id}/: Delete a specific note by its ID.
 
 
 
-Usage
+
+## Usage
 
 To create a new note, send a POST request to /api/notes/ with the required fields in the request body.
+
 To retrieve a list of all notes, send a GET request to /api/notes/.
+
 To retrieve a specific note, send a GET request to /api/notes/{id}/, where {id} is the ID of the note.
+
 To update a specific note, send a PUT request to /api/notes/{id}/ with the updated fields in the request body.
+
 To delete a specific note, send a DELETE request to /api/notes/{id}/.
 
 
